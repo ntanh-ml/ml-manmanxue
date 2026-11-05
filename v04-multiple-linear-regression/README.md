@@ -11,4 +11,4 @@ Multiple linear regression on four simulated incinerator sensors to predict the 
 | `notebook.ipynb` | 產生影片中的每一張資料圖和每一個數字（seed 2026） |
 | `data/v04.json` | notebook 匯出、給影片動畫使用的資料 |
 
-影片 Video：即將上架 · 資料皆為**模擬資料，非實廠數據**，不代表任何一座真實焚化廠。All data are simulated and do not describe any real plant.
+影片 Video：[▶️ YouTube](https://youtu.be/iY7K0Wnhllo) · 資料皆為**模擬資料，非實廠數據**，不代表任何一座真實焚化廠。All data are simulated and do not describe any real plant.
