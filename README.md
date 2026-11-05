@@ -12,6 +12,7 @@ Code and notebooks for the YouTube channel **ML 慢慢學** — machine learning
 |---|-----------|-----------|----------|
 | EP01 | 梯度下降法 Gradient Descent | [▶️ YouTube](https://youtu.be/Zn4VlH-l0Dk) | [notebook](v02-gradient-descent/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v02-gradient-descent/notebook.ipynb) |
 | EP02 | 焚化爐圖解 Waste-to-Energy Incineration | [▶️ YouTube](https://youtu.be/FJUT6VFvEZ4) | [notebook](v03-incinerator-data/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v03-incinerator-data/notebook.ipynb) |
+| EP03 | 多元線性迴歸 Multiple Linear Regression | 即將上架 | [notebook](v04-multiple-linear-regression/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v04-multiple-linear-regression/notebook.ipynb) |
 
 ## ▶️ 如何執行 How to run
 
