@@ -11,4 +11,4 @@ Gradient descent explained with a simulated example (temperature → air-conditi
 | `notebook.ipynb` | 重現影片中的每一張圖與數字（seed 2026） |
 | `data/v02.json` | notebook 匯出、給影片動畫使用的資料 |
 
-影片 Video：[▶️ YouTube](https://youtu.be/Zn4VlH-l0Dk) · 資料為模擬資料，非實際量測。
+影片 Video：[▶️ YouTube](https://youtu.be/jnqgREbv4vI) · 資料為模擬資料，非實際量測。
