@@ -11,4 +11,4 @@ A data-centred tour of a waste-to-energy incinerator: what is measured in real t
 | `notebook.ipynb` | 產生影片中的每一張資料圖（seed 2026） |
 | `data/v03.json` | notebook 匯出、給影片動畫使用的資料 |
 
-影片 Video：[▶️ YouTube](https://youtu.be/FJUT6VFvEZ4) · 資料皆為**模擬資料，非實廠數據**，不代表任何一座真實焚化廠。All data are simulated and do not describe any real plant.
+影片 Video：[▶️ YouTube](https://youtu.be/1i8C9MIJVls) · 資料皆為**模擬資料，非實廠數據**，不代表任何一座真實焚化廠。All data are simulated and do not describe any real plant.
