@@ -1,0 +1,147 @@
+<!doctype html>
+<!-- Trang hồ sơ một trang (GitHub Pages, thư mục docs/ của repo ml-manmanxue). Claude-TK2 soạn 2026-11-11; BẢN NHÁP chờ Tuấn Anh duyệt chữ.
+     Ảnh chân dung: bỏ file img/profile.jpg (vuông, ≥ 400 px); chưa có thì tự hiện logo ốc sên.
+     Mỗi tập mới: thêm một khối <article class="ep"> trong #videos (ảnh img/epNN.jpg = thumbnail thu 640 px). -->
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>阮俊英 Tuan Anh Nguyen</title>
+<meta name="description" content="阮俊英 Tuan Anh Nguyen：數位機電碩士生，工作上接觸工業物聯網與 PLC；YouTube 頻道「ML 慢慢學」與每集 notebook。">
+<link rel="icon" href="img/logo.svg">
+<style>
+:root {
+  --bg: #0B1420; --bg2: #16283D; --card: #13233A; --ink: #E6EDF5; --faint: rgba(230,237,245,0.70);
+  --hair: rgba(230,237,245,0.14); --accent: #F97316; --teal: #38D3C8; --amber: #FFC857;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: radial-gradient(1200px 700px at 50% 0%, var(--bg2), var(--bg)) fixed, var(--bg);
+  color: var(--ink); font: 17px/1.7 "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+a { color: var(--teal); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+header { display: flex; gap: 28px; align-items: center; padding: 56px 0 28px; flex-wrap: wrap; }
+.avatar { width: 128px; height: 128px; border-radius: 50%; object-fit: cover; background: #FFF7E6; border: 3px solid var(--accent); flex: none; }
+h1 { margin: 0; font-size: 34px; line-height: 1.25; }
+h1 small { display: block; font-size: 18px; color: var(--faint); font-weight: 400; margin-top: 4px; }
+.role { margin: 10px 0 0; color: var(--faint); }
+.links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.links a { border: 1px solid var(--hair); border-radius: 999px; padding: 4px 14px; font-size: 15px; color: var(--ink); background: rgba(255,255,255,0.03); }
+.links a:hover { border-color: var(--accent); text-decoration: none; }
+h2 { font-size: 22px; margin: 44px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--hair); }
+h2 span { color: var(--faint); font-weight: 400; font-size: 16px; margin-left: 8px; }
+p.en, .en { color: var(--faint); font-size: 15px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
+.ep { background: var(--card); border: 1px solid var(--hair); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+.ep img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.ep .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.ep .no { font-family: "JetBrains Mono", Consolas, monospace; font-size: 13px; color: var(--amber); }
+.ep h3 { margin: 0; font-size: 17px; line-height: 1.45; }
+.ep .en { font-size: 14px; line-height: 1.5; }
+.ep .act { margin-top: auto; padding-top: 8px; display: flex; gap: 14px; font-size: 14px; flex-wrap: wrap; }
+.soon { color: var(--faint); }
+ul.skills { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+ul.skills li { background: var(--card); border: 1px solid var(--hair); border-radius: 12px; padding: 10px 14px; }
+ul.skills li .en { display: block; }
+footer { margin: 56px 0 40px; padding-top: 16px; border-top: 1px solid var(--hair); color: var(--faint); font-size: 14px; }
+@media (max-width: 560px) {
+  header { padding-top: 32px; gap: 18px; }
+  .avatar { width: 96px; height: 96px; }
+  h1 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img class="avatar" src="img/profile.jpg" alt="阮俊英" onerror="this.onerror=null;this.src='img/logo.svg';this.alt='ML 慢慢學 logo';">
+  <div>
+    <h1>阮俊英<small>Tuan Anh Nguyen</small></h1>
+    <p class="role">數位機電碩士生 · 工業物聯網與 PLC 相關工作 · 機器學習<br><span class="en">M.S. student, Digital Mechatronics · Working on industrial IoT &amp; PLC · Machine learning</span></p>
+    <div class="links">
+      <a href="https://www.youtube.com/@ml-step-by-step">YouTube：ML 慢慢學</a>
+      <a href="https://github.com/ntanh-ml/ml-manmanxue">GitHub</a>
+      <!-- LinkedIn / CakeResume: thêm khi có link -->
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2>關於我<span>About</span></h2>
+  <p>我是來自越南的阮俊英，就讀中國文化大學機械工程學系數位機電碩士班，預計 2028 年初畢業。目前在工作上接觸工業物聯網和 PLC。</p>
+  <p>我把自己學機器學習的過程做成 YouTube 頻道「ML 慢慢學」：每一集講清楚一個概念，用焚化爐當貫穿全系列的例子；影片裡的每一張資料圖和每一個數字，都由公開的 notebook 算出來，可以在 Google Colab 直接執行。</p>
+  <p class="en">I'm Tuan Anh Nguyen from Vietnam, an M.S. student in Digital Mechatronics at Chinese Culture University in Taipei, expected to graduate in early 2028. In my job, I work with industrial IoT and PLCs. On my YouTube channel <i>ML 慢慢學</i> I explain one machine-learning concept per episode in Traditional Chinese, using a waste incinerator as the running example. Every chart and number in each video is computed by a public notebook that runs on Google Colab.</p>
+  <p>語言：越南語（母語）、中文（TOCFL 進階級 B1）、English（B1）<br><span class="en">Languages: Vietnamese (native), Chinese (TOCFL Level 3, B1), English (B1)</span></p>
+</section>
+
+<section>
+  <h2>影片與程式<span>Videos &amp; notebooks</span></h2>
+  <div class="grid" id="videos">
+
+    <article class="ep">
+      <a href="https://youtu.be/WeixGkw59ps"><img src="img/ep01.jpg" alt="EP01 梯度下降法" loading="lazy"></a>
+      <div class="body">
+        <span class="no">EP01</span>
+        <h3>梯度下降法</h3>
+        <span class="en">Gradient descent: how a model walks downhill on the loss, and what the learning rate does.</span>
+        <div class="act"><a href="https://youtu.be/WeixGkw59ps">▶ 影片</a><a href="https://github.com/ntanh-ml/ml-manmanxue/tree/main/v02-gradient-descent">Notebook</a></div>
+      </div>
+    </article>
+
+    <article class="ep">
+      <a href="https://youtu.be/1i8C9MIJVls"><img src="img/ep02.jpg" alt="EP02 焚化爐圖解" loading="lazy"></a>
+      <div class="body">
+        <span class="no">EP02</span>
+        <h3>焚化爐圖解：垃圾為什麼燒不完？</h3>
+        <span class="en">The waste incinerator as a data problem: the sensors and targets used throughout the series.</span>
+        <div class="act"><a href="https://youtu.be/1i8C9MIJVls">▶ 影片</a><a href="https://github.com/ntanh-ml/ml-manmanxue/tree/main/v03-incinerator-data">Notebook</a></div>
+      </div>
+    </article>
+
+    <article class="ep">
+      <a href="https://youtu.be/NbI8iNe9hfA"><img src="img/ep03.jpg" alt="EP03 多元線性迴歸" loading="lazy"></a>
+      <div class="body">
+        <span class="no">EP03</span>
+        <h3>多元線性迴歸：能預測下一小時的蒸汽流量嗎？</h3>
+        <span class="en">Multiple linear regression on four sensors, and why feature standardization matters for gradient descent.</span>
+        <div class="act"><a href="https://youtu.be/NbI8iNe9hfA">▶ 影片</a><a href="https://github.com/ntanh-ml/ml-manmanxue/tree/main/v04-multiple-linear-regression">Notebook</a></div>
+      </div>
+    </article>
+
+    <article class="ep">
+      <img src="img/ep04.jpg" alt="EP04 過度擬合" loading="lazy">
+      <div class="body">
+        <span class="no">EP04</span>
+        <h3>過度擬合：Google 流感趨勢，為什麼估到疾管中心的兩倍以上？</h3>
+        <span class="en">Overfitting, training / validation / test sets, and L2 regularization.</span>
+        <div class="act"><span class="soon">影片即將上架</span><a href="https://github.com/ntanh-ml/ml-manmanxue/tree/main/v05-overfitting">Notebook</a></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <h2>做過、會用的<span>Skills</span></h2>
+  <ul class="skills">
+    <li>Python 資料分析與視覺化（NumPy、matplotlib、Jupyter）<span class="en">Python for data analysis and plotting</span></li>
+    <li>機器學習基礎：迴歸、正則化、模型評估<span class="en">ML fundamentals: regression, regularization, evaluation</span></li>
+    <li>YOLO 物件偵測：自己訓練、切分 train / val<span class="en">Trained YOLO object detectors</span></li>
+    <li>PLC 與感測器訊號：類比訊號換算成工程單位<span class="en">PLC I/O and analog signal scaling</span></li>
+    <li>工業物聯網：讀取並整理電力與感測器資料<span class="en">Industrial IoT: reading power and sensor data</span></li>
+    <li>自動控制：P／PID 控制器<span class="en">Control: P / PID controllers</span></li>
+  </ul>
+</section>
+
+<footer>
+  影片腳本由 AI 協助整理，旁白為 AI 合成語音，內容經作者查證；焚化爐相關資料為模擬資料。程式碼採 MIT License。<br>
+  <span class="en">Scripts drafted with AI assistance and checked by the author; narration is synthetic; all incinerator data are simulated. Code under the MIT License.</span>
+</footer>
+
+</div>
+</body>
+</html>
