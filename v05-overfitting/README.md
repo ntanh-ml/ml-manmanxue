@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v05-overfitting/notebook.ipynb)
 
-影片 Video：即將上架 · [English below](#english)
+影片 Video：[▶️ YouTube](https://youtu.be/iP5RJ8YK-Dw) · [English below](#english)
 
 ## 在舊資料上很準，為什麼遇到新資料就不準？
 
