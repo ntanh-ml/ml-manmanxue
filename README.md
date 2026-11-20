@@ -14,6 +14,9 @@ Code and notebooks for the YouTube channel **ML 慢慢學** — machine learning
 | EP02 | 焚化爐圖解 Waste-to-Energy Incineration | [▶️ YouTube](https://youtu.be/1i8C9MIJVls) | [notebook](v03-incinerator-data/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v03-incinerator-data/notebook.ipynb) |
 | EP03 | 多元線性迴歸 Multiple Linear Regression | [▶️ YouTube](https://youtu.be/NbI8iNe9hfA) | [notebook](v04-multiple-linear-regression/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v04-multiple-linear-regression/notebook.ipynb) |
 | EP04 | 過度擬合 Overfitting | [▶️ YouTube](https://youtu.be/iP5RJ8YK-Dw) | [notebook](v05-overfitting/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v05-overfitting/notebook.ipynb) |
+| EP05 | 邏輯斯迴歸 Logistic Regression | 即將上架 | [notebook](v06-logistic-regression/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v06-logistic-regression/notebook.ipynb) |
+| EP06 | 混淆矩陣 Confusion Matrix | 即將上架 | [notebook](v07-confusion-matrix/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v07-confusion-matrix/notebook.ipynb) |
+| EP07 | 決策樹 Decision Tree | 即將上架 | [notebook](v08-decision-tree/notebook.ipynb) · [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ntanh-ml/ml-manmanxue/blob/main/v08-decision-tree/notebook.ipynb) |
 
 ## ▶️ 如何執行 How to run
 
